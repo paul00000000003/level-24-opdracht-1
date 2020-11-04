@@ -1,0 +1,92 @@
+.img_regel {
+  width: 300px;
+  height: 300px;
+}
+
+.plaatjes_regel {
+  list-style-type: none;
+}
+
+.plaatjes_weergave {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (1fr)[5];
+      grid-template-rows: repeat(5, 1fr);
+}
+
+.creditcard_p1 {
+  width: 200px;
+  margin: 0px;
+}
+
+.creditcard_p2 {
+  width: 150px;
+  margin: 0px;
+}
+
+.creditcard_p3 {
+  width: 200px;
+  margin: 0px;
+}
+
+.creditcard_p4 {
+  width: 200px;
+  margin: 0px;
+}
+
+.creditcard_regel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px;
+}
+
+.onderstreep {
+  text-decoration: underline;
+}
+
+.match_weergave {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.match_img {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+}
+
+.match_p1 {
+  width: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.match_p2 {
+  width: 200px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.match_p3 {
+  width: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.match_p4 {
+  width: 200px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.button_maak_match {
+  width: 100px;
+  height: 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/*# sourceMappingURL=styles.css.map */
